@@ -7,7 +7,17 @@ Usage
 -----
 
 ```
-docker run -d jonmorehouse/ping-pong-server 
+docker run -p 5000:8080 -d jonmorehouse/ping-pong-server 
 
+curl localhost:5000
+  
+  {
+    "status": "ok"
+  }
+
+curl --date "name=test" localhost:5000
+  {
+    "name": "test"
+  }
 
 ```

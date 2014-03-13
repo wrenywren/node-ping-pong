@@ -1,19 +1,21 @@
 {
-  "name": "temp-server",
+  "name": "ping-pong",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.coffee",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/MorehouseJ09/node-temp-server.git"
+    "url": "git://github.com/jonmorehouse/node-ping-pong.git"
   },
   "author": "Jon Morehouse",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MorehouseJ09/node-temp-server/issues"
+    "url": "https://github.com/jonmorehouse/node-ping-pong/issues"
   },
-  "homepage": "https://github.com/MorehouseJ09/node-temp-server"
+  "homepage": "https://github.com/jonmorehouse/node-ping-pong",
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "express": "~3.4.8"
+  }
 }
