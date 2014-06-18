@@ -6,17 +6,17 @@ app.listen 8080
 
 app.get "/", (req, res) ->
 
-	response = 
-	
-		status: "OK"
+  response = 
+  
+    status: "OK"
 
-	#console.log "get: %j", req
-	res.send response
+  console.log "get"
+  res.send response
 
 app.post "/", (req, res)->
 
-	#console.log "post: %j", req.body
-	res.send req.body
+  console.log "post: %j", req.body
+  res.send req.body
 
 
 
