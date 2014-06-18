@@ -1,10 +1,7 @@
-Ping Pong Server
-================
+# Ping Pong Server
+> A small test server for debugging get / post requests
 
-A quick and easy server for testing get/posts 
-
-Usage
------
+## Usage
 
 ~~~ bash
 $ docker run -p 5000:8080 -d jonmorehouse/ping-pong
