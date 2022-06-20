@@ -5,12 +5,12 @@ app = express()
 app.use express.bodyParser()
 app.listen 8080
 
-app.get "/", (req, res) ->
+app.get "/ping", (req, res) ->
 
   p req.get "Content-Type"
   response = 
   
-    status: "OK"
+    message: "pong"
 
   p "get"
   res.send response
